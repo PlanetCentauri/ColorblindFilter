@@ -17,9 +17,3 @@ vec3 c2 = {c.r, c.g, c.b};
 c2 *= m[index];
 gl_FragColor = vec4( c2.x , c2.y, c2.z, 1.0 );
 }
-
-/*
-We wanted to share a very simple code to create filters for color blind people. 
-Hoping that this will allow more people to integrate into their games !
-example : http://planetcentauri.com/wp-content/uploads/2013/12/colorblindx2.png
-*/
